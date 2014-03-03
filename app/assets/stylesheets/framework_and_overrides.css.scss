@@ -99,6 +99,13 @@ body {
   padding-right: 15px;
 }
 
+.navbar-inverse .navbar-nav > li > a{
+  color:white;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover{
+  color: yellow;
+}
 
 /* CUSTOMIZE THE CAROUSEL
 -------------------------------------------------- */
