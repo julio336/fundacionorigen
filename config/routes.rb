@@ -1,4 +1,8 @@
 OrigenNaku::Application.routes.draw do
+
+  resources :proyects
+
+
   get "static_pages/index"
 
   # The priority is based upon order of creation:
