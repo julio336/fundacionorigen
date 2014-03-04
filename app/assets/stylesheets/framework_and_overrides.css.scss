@@ -81,6 +81,11 @@ body {
 -------------------------------------------------- */
 
 /* Special class on .container surrounding .navbar, used for positioning it into place. */
+.navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:hover, .navbar-inverse .navbar-nav > .open > a:focus {
+background-color: #0F5F0F;
+color: white;
+}
+
 .navbar-wrapper {
   position: absolute;
   top: 0;

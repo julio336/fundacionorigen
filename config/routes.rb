@@ -5,6 +5,8 @@ OrigenNaku::Application.routes.draw do
 
   get "static_pages/index"
 
+  match "/contacto", to: 'static_pages#contacto', via: 'get'
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
   root :to => 'static_pages#index'
