@@ -16,8 +16,17 @@
     <%= f.text_field :title %>
   </div>
   <div class="field">
+    <%= f.label :subtitle %><br />
+    <%= f.text_area :subtitle %>
+  </div>
+  <br>
+  <div class="field">
+    <%= f.label :back_image %><br />
+    <%= f.text_field :back_image %>
+  </div>
+  <div class="field">
     <%= f.label :description %><br />
-    <%= f.text_area :description %>
+    <%= f.text_area :description, class: "col-md-12"  %>
   </div>
   <div class="field">
     <%= f.label :thumb %><br />
