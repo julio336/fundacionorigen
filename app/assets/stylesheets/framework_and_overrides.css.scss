@@ -37,7 +37,7 @@ main {
   background-color: white;
   padding-bottom: 80px;
   width: 100%;
-  margin-top: 51px; // accommodate the navbar
+  margin-top: 1px; // accommodate the navbar
   }
 section {
   @extend .row;
@@ -92,6 +92,13 @@ color: white;
   left: 0;
   right: 0;
   z-index: 20;
+}
+
+.navbar {
+  position: relative;
+  min-height: 112px;
+  margin-bottom: 0px;
+  border: 1px solid transparent;
 }
 
 /* Flip around the padding for proper display in narrow viewports */
