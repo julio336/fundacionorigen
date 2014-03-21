@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20140313035258) do
+ActiveRecord::Schema.define(:version => 20140321004027) do
 
   create_table "proyects", :force => true do |t|
     t.string   "title"
@@ -22,6 +22,10 @@ ActiveRecord::Schema.define(:version => 20140313035258) do
     t.datetime "updated_at",                 :null => false
     t.string   "subtitle"
     t.string   "back_image"
+    t.string   "galeria1"
+    t.string   "galeria2"
+    t.string   "galeria3"
+    t.string   "galeria4"
   end
 
 end

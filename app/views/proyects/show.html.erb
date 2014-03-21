@@ -1,5 +1,5 @@
 
-<div style="background-image: url('/assets/escuela1.png');" class="row">
+<div style="background-image: url('/assets/<%=@proyect.back_image %>');" class="row">
 	<div class="container">
 		<h1 style="margin-top:5%; color:white" class="featurette-heading"><%= @proyect.title %></h1>
 		<p style="color:white" class="lead"><%= @proyect.subtitle %></p>
@@ -15,28 +15,28 @@
 	</div>
 	<div class="col-md-4">
 	  <br>
-      <div class="col-xs-6 col-md-6">
-        <a href="#" class="thumbnail">
-          <img data-src="holder.js/100%x180" alt="100%x180" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNzEiIGhlaWdodD0iMTgwIj48cmVjdCB3aWR0aD0iMTcxIiBoZWlnaHQ9IjE4MCIgZmlsbD0iI2VlZSI+PC9yZWN0Pjx0ZXh0IHRleHQtYW5jaG9yPSJtaWRkbGUiIHg9Ijg1LjUiIHk9IjkwIiBzdHlsZT0iZmlsbDojYWFhO2ZvbnQtd2VpZ2h0OmJvbGQ7Zm9udC1zaXplOjEycHg7Zm9udC1mYW1pbHk6QXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWY7ZG9taW5hbnQtYmFzZWxpbmU6Y2VudHJhbCI+MTcxeDE4MDwvdGV4dD48L3N2Zz4=" style="height: 180px; width: 100%; display: block;">
-        </a>
-      </div>
-      <div class="col-xs-6 col-md-6">
-        <a href="#" class="thumbnail">
-          <img data-src="holder.js/100%x180" alt="100%x180" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNzEiIGhlaWdodD0iMTgwIj48cmVjdCB3aWR0aD0iMTcxIiBoZWlnaHQ9IjE4MCIgZmlsbD0iI2VlZSI+PC9yZWN0Pjx0ZXh0IHRleHQtYW5jaG9yPSJtaWRkbGUiIHg9Ijg1LjUiIHk9IjkwIiBzdHlsZT0iZmlsbDojYWFhO2ZvbnQtd2VpZ2h0OmJvbGQ7Zm9udC1zaXplOjEycHg7Zm9udC1mYW1pbHk6QXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWY7ZG9taW5hbnQtYmFzZWxpbmU6Y2VudHJhbCI+MTcxeDE4MDwvdGV4dD48L3N2Zz4=" style="height: 180px; width: 100%; display: block;">
-        </a>
-      </div>
-      <div class="col-xs-6 col-md-6">
-        <a href="#" class="thumbnail">
-          <img data-src="holder.js/100%x180" alt="100%x180" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNzEiIGhlaWdodD0iMTgwIj48cmVjdCB3aWR0aD0iMTcxIiBoZWlnaHQ9IjE4MCIgZmlsbD0iI2VlZSI+PC9yZWN0Pjx0ZXh0IHRleHQtYW5jaG9yPSJtaWRkbGUiIHg9Ijg1LjUiIHk9IjkwIiBzdHlsZT0iZmlsbDojYWFhO2ZvbnQtd2VpZ2h0OmJvbGQ7Zm9udC1zaXplOjEycHg7Zm9udC1mYW1pbHk6QXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWY7ZG9taW5hbnQtYmFzZWxpbmU6Y2VudHJhbCI+MTcxeDE4MDwvdGV4dD48L3N2Zz4=" style="height: 180px; width: 100%; display: block;">
-        </a>
-      </div>
-      <div class="col-xs-6 col-md-6">
-        <a href="#" class="thumbnail">
-          <img data-src="holder.js/100%x180" alt="100%x180" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNzEiIGhlaWdodD0iMTgwIj48cmVjdCB3aWR0aD0iMTcxIiBoZWlnaHQ9IjE4MCIgZmlsbD0iI2VlZSI+PC9yZWN0Pjx0ZXh0IHRleHQtYW5jaG9yPSJtaWRkbGUiIHg9Ijg1LjUiIHk9IjkwIiBzdHlsZT0iZmlsbDojYWFhO2ZvbnQtd2VpZ2h0OmJvbGQ7Zm9udC1zaXplOjEycHg7Zm9udC1mYW1pbHk6QXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWY7ZG9taW5hbnQtYmFzZWxpbmU6Y2VudHJhbCI+MTcxeDE4MDwvdGV4dD48L3N2Zz4=" style="height: 180px; width: 100%; display: block;">
-        </a>
-      </div>
-	</div>
+     <ul class="lightGallery">
+      <li data-src="/assets/<%= @proyect.galeria1 %>">
+        <img src="/assets/<%= @proyect.galeria1 %>" />
+      </li>
+      <li data-src="/assets/<%= @proyect.galeria2 %>">
+        <img src="/assets/<%= @proyect.galeria2 %>" />
+      </li>
+      <li data-src="/assets/<%= @proyect.galeria2 %>">
+        <img src="/assets/<%= @proyect.galeria2 %>" />
+      </li>
+      <li data-src="/assets/<%= @proyect.galeria2 %>">
+        <img src="/assets/<%= @proyect.galeria2 %>" />
+      </li>
+    </ul>
+  </div>
 </div>
 <hr>
 <%= render partial: "static_pages/proyect_carousel" %>
 <br>
+
+<script type="text/javascript">
+  $(document).ready(function() {
+    $(".lightGallery").lightGallery(); 
+  });
+</script>
