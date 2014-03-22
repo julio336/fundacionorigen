@@ -17,6 +17,8 @@ back_dia_nino.jpg: back_dia_nino-12cb903ec008540634fbc0315e243058.jpg
 back_dia_nino/index.jpg: back_dia_nino-12cb903ec008540634fbc0315e243058.jpg
 back_jornadas_solidarias.jpg: back_jornadas_solidarias-15518964916983d862c1a798d8f8f656.jpg
 back_jornadas_solidarias/index.jpg: back_jornadas_solidarias-15518964916983d862c1a798d8f8f656.jpg
+back_navidad_todos.jpg: back_navidad_todos-2afe719bc9bfd14f5c94c523da853f9d.jpg
+back_navidad_todos/index.jpg: back_navidad_todos-2afe719bc9bfd14f5c94c523da853f9d.jpg
 comedor_infantil1.jpg: comedor_infantil1-40a879606cecb340be60aa37e6158935.jpg
 comedor_infantil1/index.jpg: comedor_infantil1-40a879606cecb340be60aa37e6158935.jpg
 comedor_infantil2.jpg: comedor_infantil2-34c9d8bf81bb78f5237bc2021ea8d882.jpg
@@ -65,6 +67,14 @@ logo.png: logo-95b3bf1e0791593d37617f8295cffcd7.png
 logo/index.png: logo-95b3bf1e0791593d37617f8295cffcd7.png
 mision.jpg: mision-39fe3d3226ef8454a3dcb3a5764c727c.jpg
 mision/index.jpg: mision-39fe3d3226ef8454a3dcb3a5764c727c.jpg
+navidad_todos1.jpg: navidad_todos1-6b4b660f00d9b461215f3c2e56759267.jpg
+navidad_todos1/index.jpg: navidad_todos1-6b4b660f00d9b461215f3c2e56759267.jpg
+navidad_todos2.jpg: navidad_todos2-ae1cbe0fad7ba30b5e02fc678c5aee83.jpg
+navidad_todos2/index.jpg: navidad_todos2-ae1cbe0fad7ba30b5e02fc678c5aee83.jpg
+navidad_todos3.jpg: navidad_todos3-e9ca48252a0dee89a7fb6694ca204e5d.jpg
+navidad_todos3/index.jpg: navidad_todos3-e9ca48252a0dee89a7fb6694ca204e5d.jpg
+navidad_todos4.jpg: navidad_todos4-a4cd011797434a5ad604a978ec85b1f9.jpg
+navidad_todos4/index.jpg: navidad_todos4-a4cd011797434a5ad604a978ec85b1f9.jpg
 rails.png: rails-a3386665c05a2d82f711a4aaa72d247c.png
 rails/index.png: rails-a3386665c05a2d82f711a4aaa72d247c.png
 sandpaper.png: sandpaper-48c48dd9423a2049fd17cd3242a0fd3c.png
