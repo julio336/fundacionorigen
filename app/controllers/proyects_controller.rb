@@ -14,7 +14,7 @@ class ProyectsController < ApplicationController
   # GET /proyects/1.json
   def show
     @proyect = Proyect.find(params[:id])
-    if request_path != proyect_path(@proyect)
+    if request.path != proyect_path(@proyect)
       redirect_to @proyect, status: :moved_permanently
     end
 
