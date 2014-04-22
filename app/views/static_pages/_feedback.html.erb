@@ -1,0 +1,43 @@
+<div style="text-align:justify" class="lead" id="msg">
+  <h2>¿Te interesa ser parte de la fundación?</h2>
+  <h3>Dejanos un mensaje</h3>
+  <%= form_for(Feedback.new,:builder => Judge::FormBuilder, :remote => true) do |f| %>
+    <% if @feedback.errors.any? %>
+      <div id="error_explanation">
+        <h2><%= pluralize(@feedback.errors.count, "error") %> prohibited this feedback from being saved:</h2>
+
+        <ul>
+        <% @feedback.errors.full_messages.each do |msg| %>
+          <li><%= msg %></li>
+        <% end %>
+        </ul>
+      </div>
+    <% end %>
+    <div class="field">
+      <%= f.text_area :content, class: "form-control", rows:"10", :validate => true %>
+    </div>
+    <div class="field">
+      <br>
+      <%= f.submit 'Enviar', class:"btn btn-success btn-lg", id: "submit"%>
+    </div>
+  <% end %>
+</div>
+<br>
+<h2 style="text-align: center; color: rgb(47, 199, 47);" id="mensaje"></h2>
+<br>
+<script type="text/javascript" charset="utf-8">
+$(document).ready(function(){
+  $('#submit').on('click', function(){
+      judge.validate(document.getElementById('feedback_content'), {
+      valid: function(element) {
+      element.style.border = '1px solid green';
+      },
+      invalid: function(element, messages) {
+      element.style.border = '1px solid red';
+      alert(messages.join(','));
+      }
+    });
+
+  });
+});
+</script>

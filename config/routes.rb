@@ -1,15 +1,25 @@
 OrigenNaku::Application.routes.draw do
 
+  resources :feedbacks
+
+
   resources :proyects
 
 
   get "static_pages/index"
 
   match "/contacto", to: 'static_pages#contacto', via: 'get'
+  match "/xaltipan", to: 'static_pages#xaltipan', via: 'get'
+  match "/universitarios", to: 'static_pages#universitarios', via: 'get'
+  match "/voluntariado", to: 'static_pages#voluntariado', via: 'get'
+  match "/tierradegloria", to: 'static_pages#tierradegloria', via: 'get'
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
   root :to => 'static_pages#index'
+
+  mount Judge::Engine => '/judge'
+
 
   # Sample of regular route:
   #   match 'products/:id' => 'catalog#view'
