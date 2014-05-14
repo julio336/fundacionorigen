@@ -35,6 +35,9 @@ gem 'jquery-rails'
 #online validations
 gem 'judge'
 
+#twitter newsfeed
+gem 'twitter'
+gem 'twitter-text'
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
 

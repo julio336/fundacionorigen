@@ -19,39 +19,35 @@
 	  		<div class="col-md-4">
 	  			<h3>Últimos tweets</h3>
 	  			<hr>
-	  			<div class="col-md-2"><%= image_tag('ftwt.png') %></div>
-	  			<div class="col-md-10">
-	  				<p>Ds which don't look even slightly believable. If you are going to use nibh euismod tincidunt ut laoreet.
-	  				<p>About 1 hour ago.</p>
-	  			</div>
-	  			<br>
-	  			<div class="col-md-2"><%= image_tag('ftwt.png') %></div>
-	  			<div class="col-md-10">
-	  				<p>Ds which don't look even slightly believable. If you are going to use nibh euismod tincidunt ut laoreet.
-	  				<p>About 1 hour ago.</p>
-	  			</div>
-	  			<br>
-	  			<div class="col-md-2"><%= image_tag('ftwt.png') %></div>
-	  			<div class="col-md-10">
-	  				<p>Ds which don't look even slightly believable. If you are going to use nibh euismod tincidunt ut laoreet.
-	  				<p>About 1 hour ago.</p>
-	  			</div>
+	  			<% @tweet_news.each do |tweet| %>
+					<div class="col-md-2"><%= image_tag('ftwt.png') %></div>
+					<div class="col-md-10">
+	  					<p>
+	  						<%= link_to tweet.user.screen_name, "https://twitter.com/OrigenNaku", target: "_blank" %>
+	  					</p>
+	  					<p>	
+	  						<%= twitter_text(tweet.text) %> 
+	  					</p>
+	  				</div>
+  				<% end %>
 	  		</div>
 	  		<div class="col-md-4">
 	  			<h3>Síguenos</h3>
 	  			<hr>
-	  			<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-	  			<small><span class="glyphicon glyphicon-tag"></span> 12 Febrero 2014 </small>
-	  			<p><%= link_to "Leer mas", "#" %></p>
-	  			<hr>
-	  			<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-	  			<small><span class="glyphicon glyphicon-tag"></span> 5 Febrero 2014 </small>
-	  			<p><%= link_to "Leer mas", "#" %></p>
-	  			<hr>
-	  			<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-	  			<small><span class="glyphicon glyphicon-tag"></span> 2 Febrero 2014 </small>
-	  			<p><%= link_to "Leer mas", "#" %></p>
-	  			<hr>
+	  			<div class="row">
+		  			<div class="col-md-2"><%= link_to image_tag('http://a5.mzstatic.com/us/r30/Purple/v4/f7/25/73/f725731b-6ddf-c2a2-32a6-3029c3e7225a/mzl.uyyqawdj.png'), "https://www.facebook.com/FundacionOrigenNaku?fref=ts", target: "_blank"  %></div>
+		  			<div class="col-md-10">Fundación Origen Nakú</div>
+				</div>
+				<br>
+				<div class="row">
+		  			<div class="col-md-2"><%= link_to image_tag('http://www.compra-bitcoins.es/img/twitter-compra-bitcoins.png'), "https://twitter.com/OrigenNaku", target: "_blank"  %></div>
+		  			<div class="col-md-10">@OrigenNaku</div>
+		  		</div>
+		  		<br>
+		  		<div class="row">
+		  			<div class="col-md-2"><%= link_to image_tag('http://rack.1.mshcdn.com/media/ZgkyMDEzLzA4LzI5Lzg2L3lvdXR1YmVsb2dvLjNmZmMzLmpwZwpwCXRodW1iCTk1MHg1MzQjCmUJanBn/334cf6a5/be5/youtube-logo.jpg'), "https://www.youtube.com/channel/UCbjZOvJhXKosTHTueEqgThg", target: "_blank"  %></div>
+		  			<div class="col-md-10">Fundación Origen Nakú</div>
+				</div>
 	  		</div>
 	  		<br>
 		</footer>
