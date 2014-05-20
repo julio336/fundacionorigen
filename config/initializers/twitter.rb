@@ -1,4 +1,3 @@
-
 client = Twitter::REST::Client.new do |config|
   config.consumer_key        = "MkYi53JY8meo9eKJwOOKfZ0GR"
   config.consumer_secret     = "sx8KYQhSuJQNlGf58wHoWT5XbsjZE1Nk68EsEkpUeH0gGNnAAj"
