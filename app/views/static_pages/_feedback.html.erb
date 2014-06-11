@@ -1,6 +1,6 @@
 <div style="text-align:justify" class="lead" id="msg">
   <h2>¿Te interesa ser parte de la fundación?</h2>
-  <h3>Dejanos un mensaje</h3>
+  <h3>Déjanos un mensaje</h3>
   <%= form_for(Feedback.new,:builder => Judge::FormBuilder, :remote => true) do |f| %>
     <% if @feedback.errors.any? %>
       <div id="error_explanation">
