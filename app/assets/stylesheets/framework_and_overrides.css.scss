@@ -11,6 +11,19 @@ img {
   font-size: inherit;
   }
 
+@font-face {
+    font-family: naku;
+    src: url('/assets/JINKY.ttf');
+}
+
+.naku-font{
+  font-family: naku, inherit;
+  font-size: 70px;
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -1px;
+}
+
 // THESE ARE EXAMPLES YOU CAN MODIFY
 // create your own classes
 // to make views framework-neutral
