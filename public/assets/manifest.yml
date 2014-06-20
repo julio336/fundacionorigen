@@ -1,4 +1,6 @@
 ---
+JINKY.ttf: JINKY-f8c883bcdd0097a7203708bc7d2e7b65.ttf
+JINKY/index.ttf: JINKY-f8c883bcdd0097a7203708bc7d2e7b65.ttf
 glyphicons-halflings-regular.eot: glyphicons-halflings-regular-e76f5a754ccf64843a118a8706df3f8c.eot
 glyphicons-halflings-regular/index.eot: glyphicons-halflings-regular-e76f5a754ccf64843a118a8706df3f8c.eot
 glyphicons-halflings-regular.svg: glyphicons-halflings-regular-8a0a941aafb8c48e709ca72675344c92.svg
@@ -143,8 +145,8 @@ voluntariado.jpg: voluntariado-c2869b807c66442addbed702034cc19c.jpg
 voluntariado/index.jpg: voluntariado-c2869b807c66442addbed702034cc19c.jpg
 application.js: application-729c6d5c3aeaa098824aea62a6e9b4e0.js
 application/index.js: application-729c6d5c3aeaa098824aea62a6e9b4e0.js
-application.css: application-039a1500842bfbd1896151220d5422ab.css
-application/index.css: application-039a1500842bfbd1896151220d5422ab.css
+application.css: application-85c28f07e67f67450f4e84adb0aa54cf.css
+application/index.css: application-85c28f07e67f67450f4e84adb0aa54cf.css
 jquery.min.map: jquery.min-388372ef65cc311f6a3df4a6ceac8d22.map
 jquery/index.min.map: jquery.min-388372ef65cc311f6a3df4a6ceac8d22.map
 bootstrap/glyphicons-halflings-regular.eot: bootstrap/glyphicons-halflings-regular-e76f5a754ccf64843a118a8706df3f8c.eot
