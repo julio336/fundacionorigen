@@ -1,5 +1,7 @@
 OrigenNaku::Application.routes.draw do
 
+  devise_for :users
+
   resources :feedbacks
 
 
@@ -13,6 +15,8 @@ OrigenNaku::Application.routes.draw do
   match "/universitarios", to: 'static_pages#universitarios', via: 'get'
   match "/voluntariado", to: 'static_pages#voluntariado', via: 'get'
   match "/tierradegloria", to: 'static_pages#tierradegloria', via: 'get'
+  match "/admin", to: 'static_pages#admin', via: 'get'
+
 
   # The priority is based upon order of creation:
   # first created -> highest priority.

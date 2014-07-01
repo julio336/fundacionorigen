@@ -34,4 +34,7 @@ class StaticPagesController < ApplicationController
   def voluntariado
     @feedback = Feedback.new
   end
+
+  def admin
+  end
 end

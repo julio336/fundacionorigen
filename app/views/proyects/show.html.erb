@@ -1,35 +1,43 @@
 
-<div style="background-image: url('/assets/<%=@proyect.back_image %>');" class="row">
-	<div class="container">
-		<h1 style="margin-top:0%; color:white" class="naku-font"><%= @proyect.title %></h1>
-		<p style="color:white" class="naku-font"><%= @proyect.subtitle %></p>
+<div style="background-image: url('/assets/<%=@proyect.back_image %>'); 
+  background-position: center center;" class="row">
+	<div class="col-md-4">
+
+    <%= image_tag('titulo_escuela_sol.png', style: "margin: 12%") %>
+		<!--<h1 style="margin-top:13%; color:white" class="naku-font"><%= @proyect.title %></h1>
+		<p style="color:white" class="naku-font"><%= @proyect.subtitle %></p> -->
 
 	</div>
 </div>
-<div class="container">
-	<div class="col-md-8">
-		<br>
-		<p style="text-align:justify" class="lead">
-		  <%= @proyect.description.html_safe %>
-		</p>
-	</div>
-	<div class="col-md-4">
-	  <br>
-     <p style="text-align:center">Da click para ver la imagen:</p>
-     <ul class="lightGallery">
-      <li data-src="/assets/<%= @proyect.galeria1 %>">
-        <img src="/assets/<%= @proyect.galeria1 %>" />
-      </li>
-      <li data-src="/assets/<%= @proyect.galeria2 %>">
-        <img src="/assets/<%= @proyect.galeria2 %>" />
-      </li>
-      <li data-src="/assets/<%= @proyect.galeria3 %>">
-        <img src="/assets/<%= @proyect.galeria3 %>" />
-      </li>
-      <li data-src="/assets/<%= @proyect.galeria4 %>">
-        <img src="/assets/<%= @proyect.galeria4 %>" />
-      </li>
-    </ul>
+<div class="row">
+	<div style="" class="col-md-12">
+      <%= image_tag('mitad_logo.png', style: "float:left; opacity: 0.25; margin-top: 3%") %>
+    <div class="row">
+      <div class="col-md-7">
+		    <br>
+		    <p style="text-align:justify" class="lead">
+		      <%= @proyect.description.html_safe %>
+		    </p>
+	    </div>
+    	<div class="col-md-3">
+    	  <br>
+         <p style="text-align:center">Da click para ver la imagen:</p>
+         <ul class="lightGallery">
+          <li data-src="/assets/<%= @proyect.galeria1 %>">
+            <img src="/assets/<%= @proyect.galeria1 %>" />
+          </li>
+          <li data-src="/assets/<%= @proyect.galeria2 %>">
+            <img src="/assets/<%= @proyect.galeria2 %>" />
+          </li>
+          <li data-src="/assets/<%= @proyect.galeria3 %>">
+            <img src="/assets/<%= @proyect.galeria3 %>" />
+          </li>
+          <li data-src="/assets/<%= @proyect.galeria4 %>">
+            <img src="/assets/<%= @proyect.galeria4 %>" />
+          </li>
+        </ul>
+      </div>
+    </div>
   </div>
 </div>
 <hr>

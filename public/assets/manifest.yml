@@ -1,4 +1,6 @@
 ---
+ChalkDust.ttf: ChalkDust-eedc30c1e998f767fdd48b728080a7b3.ttf
+ChalkDust/index.ttf: ChalkDust-eedc30c1e998f767fdd48b728080a7b3.ttf
 JINKY.ttf: JINKY-f8c883bcdd0097a7203708bc7d2e7b65.ttf
 JINKY/index.ttf: JINKY-f8c883bcdd0097a7203708bc7d2e7b65.ttf
 glyphicons-halflings-regular.eot: glyphicons-halflings-regular-e76f5a754ccf64843a118a8706df3f8c.eot
@@ -25,8 +27,8 @@ back_apadrinamiento.jpg: back_apadrinamiento-1f16c2bb3cc67956bac3f3161788b634.jp
 back_apadrinamiento/index.jpg: back_apadrinamiento-1f16c2bb3cc67956bac3f3161788b634.jpg
 back_comedor_infantil.jpg: back_comedor_infantil-adef133274cbe220003a5dcd33569bc2.jpg
 back_comedor_infantil/index.jpg: back_comedor_infantil-adef133274cbe220003a5dcd33569bc2.jpg
-back_dia_nino.jpg: back_dia_nino-12cb903ec008540634fbc0315e243058.jpg
-back_dia_nino/index.jpg: back_dia_nino-12cb903ec008540634fbc0315e243058.jpg
+back_dia_nino.jpg: back_dia_nino-64d5f7dba43282071b918192da0cf5b5.jpg
+back_dia_nino/index.jpg: back_dia_nino-64d5f7dba43282071b918192da0cf5b5.jpg
 back_donativos.jpg: back_donativos-68900bda93912ca90a5cead50c42754c.jpg
 back_donativos/index.jpg: back_donativos-68900bda93912ca90a5cead50c42754c.jpg
 back_jornadas_solidarias.jpg: back_jornadas_solidarias-15518964916983d862c1a798d8f8f656.jpg
@@ -79,6 +81,8 @@ escuela_del_sol3.jpg: escuela_del_sol3-57e4d07411115931edd4865951e37f50.jpg
 escuela_del_sol3/index.jpg: escuela_del_sol3-57e4d07411115931edd4865951e37f50.jpg
 escuela_del_sol4.jpg: escuela_del_sol4-8a9b12488abcaa31e21c6daddecfb4a1.jpg
 escuela_del_sol4/index.jpg: escuela_del_sol4-8a9b12488abcaa31e21c6daddecfb4a1.jpg
+flor_cafe.png: flor_cafe-fa7fb85e401e3ff5bed0d86e0b851037.png
+flor_cafe/index.png: flor_cafe-fa7fb85e401e3ff5bed0d86e0b851037.png
 ftwt.png: ftwt-20bbb159d680d0580e15becc484ec310.png
 ftwt/index.png: ftwt-20bbb159d680d0580e15becc484ec310.png
 fundacion_origen.jpg: fundacion_origen-1b141b0a6a3685aec4c30c33365f2712.jpg
@@ -97,10 +101,14 @@ loading.gif: loading-caff994e719554ada7b14ddc0d80aa09.gif
 loading/index.gif: loading-caff994e719554ada7b14ddc0d80aa09.gif
 logo.png: logo-12595d8f526a5fd0ce7baf0ef22a921c.png
 logo/index.png: logo-12595d8f526a5fd0ce7baf0ef22a921c.png
+logo_mini.png: logo_mini-f600324c5996c1c74d6206ef481a8863.png
+logo_mini/index.png: logo_mini-f600324c5996c1c74d6206ef481a8863.png
 mapa_comunidades.jpg: mapa_comunidades-41d9f4986f7aec113b4f34c1dd82bed9.jpg
 mapa_comunidades/index.jpg: mapa_comunidades-41d9f4986f7aec113b4f34c1dd82bed9.jpg
 mision.jpg: mision-39fe3d3226ef8454a3dcb3a5764c727c.jpg
 mision/index.jpg: mision-39fe3d3226ef8454a3dcb3a5764c727c.jpg
+mitad_logo.png: mitad_logo-751f71547387180df1edf43c4d1a1b1b.png
+mitad_logo/index.png: mitad_logo-751f71547387180df1edf43c4d1a1b1b.png
 mujeres_emprendedoras1.jpg: mujeres_emprendedoras1-7f8f7d7ec1e2fdfad73af7b28e3efbe6.jpg
 mujeres_emprendedoras1/index.jpg: mujeres_emprendedoras1-7f8f7d7ec1e2fdfad73af7b28e3efbe6.jpg
 mujeres_emprendedoras2.jpg: mujeres_emprendedoras2-76d077c246fd82d983991da9a25258ff.jpg
